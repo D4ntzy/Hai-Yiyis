@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fff0f5, #ffe4e1);
+  color: #4b2e56;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.gallery, .countdown, .chatbox, .video {
+  padding: 2rem;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.slider img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#timer {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #e75480;
+}
+
+.chat {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat p {
+  background-color: #ffdee9;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+#chatInput {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#sendBtn {
+  background-color: #f06292;
+}
+
+.heart {
+  position: fixed;
+  font-size: 24px;
+  color: #ff1493;
+  animation: floatUp 2s linear forwards;
+}
+
+@keyframes floatUp {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-100px); }
+}
