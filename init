@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit - romantic website for my love 💖"
+git branch -M main
+git remote add origin https://github.com/D4ntzy/romantic-site.git
+git push -u origin main
